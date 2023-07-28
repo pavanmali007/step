@@ -1,0 +1,106 @@
+/* 
+    Created on : 29-Jun-2023, 8:27:18 pm
+    Author     : pavan
+*/
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#container{
+    
+    width: 99%;
+    height: 450px;
+    /*background-color: azure;*/
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    padding: 4px;
+    
+}
+
+#fdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    /*background-color: aquamarine;*/
+    background-color: #66ff99;
+    color: black;
+    width: 20%;
+    height: 60%;
+}
+
+#sdiv{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 80%;
+    height: 70%;
+    
+}
+
+.div{
+    border-radius: 10px;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#para{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: none;
+    font-size: x-large;
+}
+
+#username{
+    text-align: center;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    border: hidden;
+}
+
+#email{
+    text-align: center;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    border: hidden;
+}
+
+#password{
+    text-align: center;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    border: hidden;
+}
+
+#btn{
+    width: 208px;
+    height: 40px;
+    /*background-color: aquamarine;*/
+    background-color: #66ff99;
+    border: hidden;
+    font-family: none;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
